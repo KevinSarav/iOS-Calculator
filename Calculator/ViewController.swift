@@ -95,7 +95,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBAction func btFirstNumNegative(_ sender: Any) {
         // Toggle minus sign for first number
-        // If first number has a -:
+        // If first number has no - sign:
         if txNegativeFirstNum.text!.isEmpty {
             txNegativeFirstNum.text = "-"
         } else {
